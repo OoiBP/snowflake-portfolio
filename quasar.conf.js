@@ -41,6 +41,10 @@ module.exports = function(/* ctx */) {
     build: {
       vueRouterMode: "history", // available values: 'hash', 'history'
 
+      // Public path of your app. By default, it uses the root.
+      // Use it when your public path is something else.
+      publicPath: "portfolio",
+
       // transpile: false,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
