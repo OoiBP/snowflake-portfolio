@@ -4,7 +4,7 @@
     :class="{ 'shadow-12': hover }"
     @mouseover="hover = true"
     @mouseleave="hover = false"
-    style="width:230px"
+    style="width: 230px"
   >
     <q-img :src="`./projects/${image}`" height="160px" />
 
@@ -31,13 +31,13 @@ export default {
     image: String,
     title: String,
     subtitle: String,
-    link: String
+    link: String,
   },
   data() {
     return {
-      hover: false
+      hover: false,
     };
-  }
+  },
 };
 </script>
 

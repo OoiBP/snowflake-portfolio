@@ -1,20 +1,18 @@
 <template>
-  <q-card dark style="min-width:430px; max-width:80%">
+  <q-card dark style="min-width: 430px; max-width: 80%">
     <q-bar>
       <q-btn dense flat round icon="lens" size="8.5px" color="red" />
       <q-btn dense flat round icon="lens" size="8.5px" color="yellow" />
       <q-btn dense flat round icon="lens" size="8.5px" color="green" />
-      <div class="col text-center text-weight-bold">
-        Greeting
-      </div>
+      <div class="col text-center text-weight-bold">Greeting</div>
     </q-bar>
 
     <q-card-section :horizontal="largeScreen">
-      <div style="width:300px; " class="q-mx-auto">
+      <div style="width: 300px" class="q-mx-auto">
         <q-img
           src="../assets/my_pic.jpg"
           width="300px"
-          style="border-radius:inherit"
+          style="border-radius: inherit"
         />
       </div>
 
@@ -61,15 +59,15 @@ export default {
   name: "AboutCard",
   data() {
     return {
-      largeScreen: true
+      largeScreen: true,
     };
   },
   watch: {
     "$q.screen.width"() {
       this.setScreen();
-    }
+    },
   },
-  mounted: function() {
+  mounted: function () {
     this.setScreen();
   },
   methods: {
@@ -79,7 +77,7 @@ export default {
       } else {
         this.largeScreen = true;
       }
-    }
-  }
+    },
+  },
 };
 </script>

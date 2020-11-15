@@ -2,9 +2,7 @@
   <q-layout view="hHh lpr fff">
     <q-header>
       <q-toolbar>
-        <q-toolbar-title class="font-russo">
-          Welcome
-        </q-toolbar-title>
+        <q-toolbar-title class="font-russo"> Welcome </q-toolbar-title>
 
         <q-tabs v-model="tab" class="text-accent">
           <q-tab name="intro" label="Intro" @click="scrollToElement('intro')" />
@@ -29,17 +27,13 @@
           <q-img src="../assets/background.jpg" height="85vh">
             <div class="absolute-full text-h1 flex flex-center font-russo">
               <transition appear enter-active-class="animated fadeInDown">
-                <span>
-                  Hi,&nbsp;
-                </span>
+                <span> Hi,&nbsp; </span>
               </transition>
               <transition
                 appear
                 enter-active-class="animated lightSpeedInRight"
               >
-                <span>
-                  I'm Wills
-                </span>
+                <span> I'm Wills </span>
               </transition>
             </div>
           </q-img>
@@ -124,7 +118,7 @@ export default {
     AboutCard,
     SkillCard,
     ProjectCard,
-    ContactForm
+    ContactForm,
   },
   data() {
     return {
@@ -132,59 +126,59 @@ export default {
       skills: [
         {
           icon: "devices",
-          title: "Web Development"
+          title: "Web Development",
         },
         {
           icon: "memory",
-          title: "Embedded System"
+          title: "Embedded System",
         },
         {
           icon: "cloud_upload",
-          title: "Internet of Things"
+          title: "Internet of Things",
         },
         {
           icon: "psychology",
-          title: "Artificial Intelligence"
-        }
+          title: "Artificial Intelligence",
+        },
       ],
       projects: [
         {
           image: "resume.jpg",
           title: "My Resume",
           subtitle: "My resume webpage built with plain HTML/CSS",
-          link: "https://ooibp.github.io/"
+          link: "https://ooibp.github.io/",
         },
         {
           image: "euler.png",
           title: "Project Euler",
           subtitle:
             "My Github repo for solving Project Euler using Go language",
-          link: "https://github.com/OoiBP/ProjectEuler"
+          link: "https://github.com/OoiBP/ProjectEuler",
         },
         {
           image: "dashboard.jpg",
           title: "IoT Dashboard",
           subtitle: "My ongoing dashboard monitoring project for IoT",
-          link: ""
-        }
+          link: "",
+        },
       ],
       footers: [
         {
           name: "facebook",
           icon: "fab fa-facebook",
-          link: "https://www.facebook.com/OoiBP92/"
+          link: "https://www.facebook.com/OoiBP92/",
         },
         {
           name: "github",
           icon: "fab fa-github",
-          link: "https://github.com/OoiBP"
+          link: "https://github.com/OoiBP",
         },
         {
           name: "linkedin",
           icon: "fab fa-linkedin",
-          link: "https://www.linkedin.com/in/boon-pin-ooi-715185194"
-        }
-      ]
+          link: "https://www.linkedin.com/in/boon-pin-ooi-715185194",
+        },
+      ],
     };
   },
   methods: {
@@ -197,8 +191,8 @@ export default {
     },
     goTo(dest) {
       openURL(dest);
-    }
-  }
+    },
+  },
 };
 </script>
 

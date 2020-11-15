@@ -5,7 +5,7 @@
     @mouseleave="hover = false"
     class="full-height"
     :class="{ 'shadow-12': hover }"
-    style="width:230px"
+    style="width: 230px"
   >
     <q-card-section class="text-center">
       <q-icon :name="icon" size="100px" color="primary" />
@@ -23,12 +23,12 @@ export default {
   name: "SkillCard",
   props: {
     icon: String,
-    title: String
+    title: String,
   },
   data() {
     return {
-      hover: false
+      hover: false,
     };
-  }
+  },
 };
 </script>
