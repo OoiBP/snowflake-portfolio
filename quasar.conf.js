@@ -43,7 +43,9 @@ module.exports = function(/* ctx */) {
 
       // Public path of your app. By default, it uses the root.
       // Use it when your public path is something else.
-      publicPath: "portfolio",
+      // For repository level GitHub page, enable this.
+      // For custom domain page, disable this.
+      // publicPath: "portfolio",
 
       // transpile: false,
 
