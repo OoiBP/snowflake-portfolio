@@ -149,11 +149,10 @@ export default {
           link: "https://ooibp.github.io/simple-company-webpage/",
         },
         {
-          image: "euler.png",
-          title: "Project Euler",
-          subtitle:
-            "My Github repo for solving Project Euler using Go language",
-          link: "https://github.com/OoiBP/ProjectEuler",
+          image: "tkd.png",
+          title: "Legend Academy",
+          subtitle: "A modern info webpage with fluid animation",
+          link: "https://ooibp.github.io/legend-academy/",
         },
         {
           image: "dashboard.jpg",
