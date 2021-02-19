@@ -143,10 +143,10 @@ export default {
       ],
       projects: [
         {
-          image: "resume.jpg",
-          title: "My Resume",
-          subtitle: "My resume webpage built with plain HTML/CSS",
-          link: "https://ooibp.github.io/",
+          image: "company.jpg",
+          title: "Company Webpage",
+          subtitle: "A simplistic company info webpage with basic animation",
+          link: "https://ooibp.github.io/simple-company-webpage/",
         },
         {
           image: "euler.png",
